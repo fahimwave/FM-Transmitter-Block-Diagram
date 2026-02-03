@@ -2,7 +2,7 @@
 
 ```mermaid
 graph TD
-    A[Message Signal m(t)] --> B[Pre-emphasis & LPF]
+    A["Message Signal m(t)"] --> B[Pre-emphasis Circuit]
     B --> C[Amplifier]
     C --> D[VCO]
     E[Crystal Oscillator] --> F[Frequency Multiplier]
